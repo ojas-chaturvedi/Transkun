@@ -3,8 +3,9 @@ channels:
     - defaults
     - conda-forge
 dependencies:
-    - python=3.8
+    - python=3.12
     - ffmpeg
     - pip
     - pip:
           - transkun
+          - tensorflow==2.19.0
