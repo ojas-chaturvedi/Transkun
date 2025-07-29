@@ -5,7 +5,7 @@ channels:
 dependencies:
     - python=3.12
     - ffmpeg
+    - tensorflow
     - pip
     - pip:
           - transkun
-          - tensorflow==2.19.0
